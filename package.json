@@ -1,0 +1,22 @@
+{
+  "name": "devices",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ColinPelkmans/Bluetooth-Devices.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ColinPelkmans/Bluetooth-Devices/issues"
+  },
+  "homepage": "https://github.com/ColinPelkmans/Bluetooth-Devices#readme",
+  "dependencies": {
+    "@abandonware/bleno": "^0.5.1-1"
+  }
+}

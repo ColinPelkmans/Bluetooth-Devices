@@ -1,0 +1,98 @@
+0 info it worked if it ends with ok
+1 verbose cli [ '/usr/bin/node',
+1 verbose cli   '/usr/bin/npm',
+1 verbose cli   'install',
+1 verbose cli   '@abandonware/bleno@latest',
+1 verbose cli   '--save' ]
+2 info using npm@1.4.21
+3 info using node@v8.11.1
+4 warn package.json devices@0.0.0 No description
+5 warn package.json devices@0.0.0 No README data
+6 verbose readDependencies using package.json deps
+7 verbose cache add [ '@abandonware/bleno@latest', null ]
+8 verbose cache add name=undefined spec="@abandonware/bleno@latest" args=["@abandonware/bleno@latest",null]
+9 verbose parsed url Url {
+9 verbose parsed url   protocol: null,
+9 verbose parsed url   slashes: null,
+9 verbose parsed url   auth: null,
+9 verbose parsed url   host: null,
+9 verbose parsed url   port: null,
+9 verbose parsed url   hostname: null,
+9 verbose parsed url   hash: null,
+9 verbose parsed url   search: null,
+9 verbose parsed url   query: null,
+9 verbose parsed url   pathname: '@abandonware/bleno@latest',
+9 verbose parsed url   path: '@abandonware/bleno@latest',
+9 verbose parsed url   href: '@abandonware/bleno@latest' }
+10 verbose cache add name="" spec="abandonware/bleno@latest" args=["","abandonware/bleno@latest"]
+11 verbose parsed url Url {
+11 verbose parsed url   protocol: null,
+11 verbose parsed url   slashes: null,
+11 verbose parsed url   auth: null,
+11 verbose parsed url   host: null,
+11 verbose parsed url   port: null,
+11 verbose parsed url   hostname: null,
+11 verbose parsed url   hash: null,
+11 verbose parsed url   search: null,
+11 verbose parsed url   query: null,
+11 verbose parsed url   pathname: 'abandonware/bleno@latest',
+11 verbose parsed url   path: 'abandonware/bleno@latest',
+11 verbose parsed url   href: 'abandonware/bleno@latest' }
+12 verbose cache add name="abandonware/bleno" spec="latest" args=["abandonware/bleno","latest"]
+13 verbose parsed url Url {
+13 verbose parsed url   protocol: null,
+13 verbose parsed url   slashes: null,
+13 verbose parsed url   auth: null,
+13 verbose parsed url   host: null,
+13 verbose parsed url   port: null,
+13 verbose parsed url   hostname: null,
+13 verbose parsed url   hash: null,
+13 verbose parsed url   search: null,
+13 verbose parsed url   query: null,
+13 verbose parsed url   pathname: 'latest',
+13 verbose parsed url   path: 'latest',
+13 verbose parsed url   href: 'latest' }
+14 verbose addNamed [ 'abandonware/bleno', 'latest' ]
+15 verbose addNamed [ null, null ]
+16 silly lockFile 9c50341a-abandonware-bleno-latest abandonware/bleno@latest
+17 verbose lock abandonware/bleno@latest /home/colin/.npm/9c50341a-abandonware-bleno-latest.lock
+18 info addNameTag [ 'abandonware/bleno', 'latest' ]
+19 verbose request where is /abandonware/bleno
+20 verbose request registry https://registry.npmjs.org/
+21 verbose request id 37ae7b1a4c2549e8
+22 verbose url raw /abandonware/bleno
+23 verbose url resolving [ 'https://registry.npmjs.org/', './abandonware/bleno' ]
+24 verbose url resolved https://registry.npmjs.org/abandonware/bleno
+25 verbose request where is https://registry.npmjs.org/abandonware/bleno
+26 info trying registry request attempt 1 at 13:40:33
+27 http GET https://registry.npmjs.org/abandonware/bleno
+28 http 405 https://registry.npmjs.org/abandonware/bleno
+29 silly registry.get cb [ 405,
+29 silly registry.get   { date: 'Fri, 27 Sep 2019 12:40:34 GMT',
+29 silly registry.get     'content-type': 'application/json',
+29 silly registry.get     'content-length': '63',
+29 silly registry.get     connection: 'close',
+29 silly registry.get     'set-cookie':
+29 silly registry.get      [ '__cfduid=d959e0d3b5ce1e4fe02dcf390ac3183ff1569588034; expires=Sat, 26-Sep-20 12:40:34 GMT; path=/; domain=.npmjs.org; HttpOnly' ],
+29 silly registry.get     'cf-ray': '51cd8bfd0f82d494-BRU',
+29 silly registry.get     allow: 'PUT',
+29 silly registry.get     'expect-ct': 'max-age=604800, report-uri="https://report-uri.cloudflare.com/cdn-cgi/beacon/expect-ct"',
+29 silly registry.get     vary: 'Accept-Encoding',
+29 silly registry.get     server: 'cloudflare' } ]
+30 silly lockFile 9c50341a-abandonware-bleno-latest abandonware/bleno@latest
+31 silly lockFile 9c50341a-abandonware-bleno-latest abandonware/bleno@latest
+32 error Error: Method Not Allowed
+32 error     at errorResponse (/usr/share/npm/lib/cache/add-named.js:260:10)
+32 error     at /usr/share/npm/lib/cache/add-named.js:71:12
+32 error     at saved (/usr/share/npm/node_modules/npm-registry-client/lib/get.js:167:7)
+32 error     at FSReqWrap.oncomplete (fs.js:135:15)
+33 error If you need help, you may report this *entire* log,
+33 error including the npm and node versions, at:
+33 error     <http://github.com/npm/npm/issues>
+34 error System Linux 4.14.98-v7+
+35 error command "/usr/bin/node" "/usr/bin/npm" "install" "@abandonware/bleno@latest" "--save"
+36 error cwd /home/colin/bluetooth/devices
+37 error node -v v8.11.1
+38 error npm -v 1.4.21
+39 error code E405
+40 verbose exit [ 1, true ]
